@@ -1,0 +1,36 @@
+.modal-social-networks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: absolute;
+  left: 85%;
+  top: 10%;
+  transform: translate(-50%);
+  transition: all 0.3;
+  
+  height: 220px;
+  width: 60px;
+
+  background: rgb(255,229,156);
+  background: radial-gradient(circle, rgba(255,229,156,1) 64%, rgba(177,160,134,1) 100%);
+  border-radius: 10px;
+
+  z-index: 10;
+}
+
+.social-networks {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.social-networks img {
+  height: 40px;
+  width: 40px;
+}
+
+.social-networks img:hover {
+  scale: 1.2;
+}

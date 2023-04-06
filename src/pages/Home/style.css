@@ -1,14 +1,10 @@
-.profile-icon {
-  height: 200px;
-  width: 200px;
+body {
+  height: 100vh;
 
-  border-radius: 50%;
-  border: 2px solid #a50808;
-}
-
-.profile-icon:hover {
-  scale: 1.5;
-  margin-bottom: 20px;
+  background-image: url('../../assets/backgroundimage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -400px
 }
 
 .about {
@@ -18,13 +14,27 @@
   align-items: center;
   text-align: center;
 
-  height: 500px;
+  height: 400px;
   width: 500px;
-  margin: 15% 0px 0px 10%;
+  margin: 0% 0px 0px 15%;
   
   list-style: none;
-  font-size: larger;
+  font-size: x-large;
   font-family: 'Lobster';
-  background-color: blueviolet;
-  color: white;
+  color: rgb(218, 83, 6);
+}
+
+.about:hover {
+  scale: 1.3;
+  border-radius: 30px;
+  background: rgb(255,229,156);
+  background: radial-gradient(circle, rgba(255,229,156,1) 64%, rgba(177,160,134,1) 100%);
+}
+
+.profile-icon {
+  height: 180px;
+  width: 180px;
+
+  border-radius: 50%;
+  border: 2px solid #a50808;
 }

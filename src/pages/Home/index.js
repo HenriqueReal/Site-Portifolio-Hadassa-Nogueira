@@ -1,12 +1,13 @@
 import './style.css';
 import Header from '../../components/Header';
-import profileIcon from '../../assets/profile.jpg'
+import profileIcon from '../../assets/profile.jpg';
 
-function Home() {
+
+function Home () {
   return (
     <>
-      <Header/>
       <body>
+      <Header/>
         <section className='about'>
           <img className='profile-icon' src={profileIcon} alt='profile-icon'></img>
           <l1>⭐ Eu sou a Hada, muito prazer! 💕 </l1>
